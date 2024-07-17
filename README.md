@@ -1,50 +1,41 @@
 # Instagram Bot
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://t.me/OFFpoliceChannel) [![aiogram 2](https://img.shields.io/badge/aiogram-2-%234FC3F7)](https://docs.aiogram.dev/en/v2.25.1/) [![instaloader](https://img.shields.io/badge/instaloader-4.11-%23007396)](https://pypi.org/project/instaloader/)
 
-## Инструкция по запуску бота:
-1. **Создайте Instagram аккаунт**:
-   - Зарегистрируйте новый профиль в Instagram.
-   - Запишите имя пользователя и пароль.
+Instructions for launching the bot:
+Create an Instagram account:
 
-2. **Настройте файл окружения**:
-   - Откройте файл `test.env`.
-   - Укажите в нем:
-     - `username` — ваше имя пользователя в Instagram.
-     - `password` — ваш пароль от Instagram.
-     - `bot_token` — токен вашего Telegram-бота.
-     - `channel_id` — ID вашего Telegram-канала. Бот должен быть администратором в этом канале.
-     - `channel_link` — ссылка на ваш Telegram-канал. Бот должен быть администратором в этом канале.
-     - `photo_link` — ссылка на фото, для фотосообщения о необходимости подписки на канал.
-     - `video_link` — ссылка на видео, для отправки видеосообщения при старте бота.
-   - Сохраните и переименуйте файл `test.env` в `.env`.
+Register a new profile on Instagram.
+Write down your username and password.
+Configure the environment file:
 
-3. **Установите зависимости**:
-   - Выполните установку всех зависимостей из файла `requirements.txt`.
+Open the test.env file.
+Specify in it:
+username is your Instagram username.
+password is your Instagram password.
+bot_token is your Telegram bot token.
+channel_id is your Telegram channel ID. The bot must be an administrator in this channel.
+channel_link is a link to your Telegram channel. The bot must be an administrator in this channel.
+photo_link is a link to a photo, for a photo message about the need to subscribe to the channel.
+video_link is a link to a video, for sending a video message when the bot starts.
+Save and rename the test.env file to .env.
+Install dependencies:
 
-4. **Запуск**:
-   - Запустите файл `main.py`.
+Install all dependencies from the requirements.txt file.
+Launch:
 
-## Скриншоты:
-<p align="center">
-  <img src="https://github.com/OFFpolice/Instagram-Bot/blob/main/Screenshots/Start.jpg" alt="Start" width="150"/>
-  <img src="https://github.com/OFFpolice/Instagram-Bot/blob/main/Screenshots/Help.jpg" alt="Help" width="150"/>
-  <img src="https://github.com/OFFpolice/Instagram-Bot/blob/main/Screenshots/Subscription.jpg" alt="Subscription" width="150"/>
-  <img src="https://github.com/OFFpolice/Instagram-Bot/blob/main/Screenshots/Subscription_No.jpg" alt="Subscription No" width="150"/>
-  <img src="https://github.com/OFFpolice/Instagram-Bot/blob/main/Screenshots/Subscription_Yes.jpg" alt="Subscription Yes" width="150"/>
-  <img src="https://github.com/OFFpolice/Instagram-Bot/blob/main/Screenshots/Processing_P.jpg" alt="Processing P" width="150"/>
-  <img src="https://github.com/OFFpolice/Instagram-Bot/blob/main/Screenshots/Photo.jpg" alt="Photo" width="150"/>
-   <img src="https://github.com/OFFpolice/Instagram-Bot/blob/main/Screenshots/Processing_Reel.jpg" alt="Reel" width="150"/>
-   <img src="https://github.com/OFFpolice/Instagram-Bot/blob/main/Screenshots/Video.jpg" alt="Video" width="150"/>
-   <img src="https://github.com/OFFpolice/Instagram-Bot/blob/main/Screenshots/Processing_Profile_Info.jpg" alt="Processing Profile Info" width="150"/>
-   <img src="https://github.com/OFFpolice/Instagram-Bot/blob/main/Screenshots/Profile.jpg" alt="Profile" width="150"/>
-</p>
+Run the main.py file.
+Screenshots:
+Send feedback
+Side panels
+History
+Saved
 
-## Отказ от ответственности:
-- Соблюдайте авторские права и убедитесь, что у вас есть право загружать и распространять контент.
-- Незаконная загрузка контента с нарушением авторских прав запрещена.
 
-## Как связаться со мной:
-[![Telegram Badge](https://img.shields.io/badge/Contact-blue?style=flat&logo=telegram&logoColor=white)](https://t.me/OFFpolice) [![Telegram Badge](https://img.shields.io/badge/Channel-blue?style=flat&logo=telegram&logoColor=white)](ttps://t.me/OFFpoliceChannel) [![Twitter Badge](https://img.shields.io/twitter/follow/:OFFpolice2077)](https://x.com/OFFpolice2077) [![Instagram Badge](https://img.shields.io/badge/-Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/offpolice2077)
+## Disclaimer:
+- Respect copyrights and make sure you have the right to upload and distribute the content.
+- Illegal uploading of copyright infringing content is prohibited.
 
-## Лицензия:
-Этот проект лицензируется по лицензии «MIT License» - более подробную информацию смотрите в файле [LICENSE](LICENSE).
+## How to contact me: [![Telegram Badge](https://img.shields.io/badge/Contact-blue?style=flat&logo=telegram&logoColor=white)](https://t.me/OFFpolice) [![Telegram Badge](https://img.shields.io/badge/Channel-blue?style=flat&logo=telegram&logoColor=white)](ttps://t.me/OFFpoliceChannel) [![Twitter Badge]( https://img.shields.io/twitter/follow/:OFFpolice2077)](https://x.com/OFFpolice2077) [![Instagram Badge](https://img.shields.io/badge/-Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/offpolice2077)
+
+## License:
+This project is licensed under "MIT License" - for more information, see the [LICENSE](LICENSE) file.
